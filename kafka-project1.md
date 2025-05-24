@@ -311,8 +311,8 @@ Outputs:
 
 ---
 
-### For a Layman: What’s Happening?
-Imagine you’re running an online store:
+###What’s Happening?
+
 - **Kafka (MSK)** is like a mailbox where all customer orders are collected.
 - **Lambda and ECS** are workers who write down orders and put them in the mailbox.
 - **EC2** is a computer where you can check the mailbox or run tools.
@@ -322,10 +322,5 @@ Imagine you’re running an online store:
 
 ---
 
-### Key Takeaways
-- This template is a blueprint for a streaming data system using AWS services.
-- It’s complex but modular: each resource (Lambda, MSK, EC2) has a specific job.
-- You can tweak settings (like Kafka version) via Parameters.
-- Security and networking are built-in to protect the system.
 
-If you have specific questions about any part (e.g., “What does the Lambda code do?” or “Why use ECS?”), let me know, and I’ll dive deeper!
+
