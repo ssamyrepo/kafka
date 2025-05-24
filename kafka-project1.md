@@ -1,9 +1,6 @@
-This is an AWS CloudFormation template that sets up a system for processing data streams using Amazon MSK (Managed Streaming for Apache Kafka), AWS Lambda, Amazon EC2, Amazon ECS, and other AWS services. Below, I’ll break it down step-by-step in simple terms for someone new to AWS or CloudFormation.
 
----
 
-### What is this template doing?
-This template creates a system to:
+### Kafka Sample Project work flow
 1. **Run a Kafka cluster** (using Amazon MSK) to handle streaming data (like orders or clicks on a website).
 2. **Send data to Kafka** using a Lambda function (a small piece of code that runs automatically).
 3. **Process data** using an EC2 instance (a virtual computer) and ECS (a service to run containerized apps).
